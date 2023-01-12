@@ -8,29 +8,37 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form method="post">
-		<label for="name" id="name" >Name</label>
-		<input type="text" for="name" name="name"><br>
-		<label for="email" id="email">Email</label>
-		<input type="text" name="email"><br>
-		<label for="gender"id="gender">Gender</label>
-		<input type="radio" for="gender" name="gender">Male
-			<input type="radio" for="gender" name="gender">Female<br>
-		<label for="cars"  id="cars">Car Brands</label>
-		<select for="cars" id="cars" name="cars">
-			<option for="cars">BMW</option>
-			<option for="cars">Audi</option>
-			<option for="cars">Mercedez</option>
-		</select><br><br>
-		<label for="carage" id="carage">Car Age</label>
-		<input type="number" for="carage" name="carage"><br>
-		<label for="dateofpurchase" id="dop">Date of Purchase(dop)</label>
-		<input type="date" for="dateofpurchase" name="dateofpurchase"><br>
-		<label for="password">Password</label>
-		<input type="password" for="password" name="password"><br>
-		<button type="submit" value="Submit">SUbmit
-		
-	</form>
+<form action="" method="post">
+	<label for="name">Name</label><br />
+		<input type="text" id="name" name="name" required /><br />
+		<label for="email">Email</label><br />
+		<input type="email" id="email" name="email" required /><br />
+		<label for="gender">Gender</label><br />
+		<input type="radio" id="gender" name="gender" value="male" required />
+		<label for="gender">Male</label><br />
+		<input type="radio" id="gender" name="gender" value="female" required />
+		<label for="gender">Female</label><br />
+		<label for="cars">Car Brands</label><br />
+		<select id="cars" name="cars" required>
+		  <option value="bmw" id="cars">BMW</option>
+		  <option value="audi" id="cars">Audi</option>
+		  <option value="mercedes" id="cars">Mercedes</option></select
+		><br />
+		<label for="carage">Car Age</label><br />
+		<input type="number" id="carage" name="carage" required /><br />
+		<label for="dop">Date of Purchase</label><br />
+		<input type="date" id="dop" name="dop" required /><br />
+		<label for="password">Password</label><br/>
+		<input
+		  type="password"
+		  id="password"
+		  name="password"
+		  required
+		/><br/>
+	
+		<button type="submit">Submit</button>
+	
+</form>
     <script type="text/javascript" src="./script.js">
 </script>z
 
